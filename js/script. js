@@ -1,0 +1,7 @@
+// Savanna Brew Café JavaScript
+
+document.addEventListener("DOMContentLoaded", function () {
+    alert("Welcome to Savanna Brew Café!");
+
+    console.log("Savanna Brew Café is ready!");
+});
