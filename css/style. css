@@ -1,0 +1,152 @@
+CSS
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5efe6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #4b2e1e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h2 {
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d9a441;
+}
+
+/* Main Content */
+main {
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.welcome {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #6b3e26;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #6b3e26;
+    color: white;
+}
+
+/* Forms */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+fieldset {
+    margin-top: 15px;
+    padding: 15px;
+}
+
+fieldset label {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+fieldset input {
+    width: auto;
+}
+
+button {
+    background-color: #6b3e26;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d9a441;
+}
+
+/* Footer */
+footer {
+    background-color: #4b2e1e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Mobile View */
+@media (max-width: 600px) {
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
