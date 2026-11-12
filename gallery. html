@@ -1,0 +1,79 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Savanna Brew Café</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h2>Savanna Brew Café ☕</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main class="welcome">
+    <h1>Our Gallery</h1>
+    <p>Take a look at our coffee, delicious food and beautiful café.</p>
+
+    <section class="gallery-grid">
+
+        <figure>
+            <img src="images/gallery-1.jpg" alt="Freshly brewed coffee">
+            <figcaption>Fresh Kenyan Coffee</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/gallery-2.jpg" alt="Coffee with milk">
+            <figcaption>Delicious Latte</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/gallery-3.jpg" alt="Fresh croissants">
+            <figcaption>Fresh Pastries</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/gallery-4.jpg" alt="Cappuccino in a cup">
+            <figcaption>Hot Cappuccino</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/gallery-5.jpg" alt="Café interior">
+            <figcaption>Our Café</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/gallery-6.jpg" alt="Coffee and snacks">
+            <figcaption>Coffee and Snacks</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/gallery-7.jpg" alt="Chocolate cake">
+            <figcaption>Sweet Treats</figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/gallery-8.jpg" alt="Customers enjoying coffee">
+            <figcaption>Happy Customers</figcaption>
+        </figure>
+
+    </section>
+</main>
+
+<footer>
+    <p>14 Coffee Lane, Westlands, Nairobi</p>
+    <p>© 2026 Savanna Brew Café. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
